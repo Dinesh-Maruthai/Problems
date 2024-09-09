@@ -1,0 +1,5 @@
+program to display random letter from string
+let name='dinesh'
+let l=name.length
+let random=Number(Math.round(Math.random()*l))
+console.log(name[random])
